@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta lang="ja" charset="utf-8">
+		<title>Swarmap</title>
+		<meta name="description" content="Swarmのチェックイン履歴をKML形式で出力します。">
+		<meta name="keywords" content="Swarm,Forsquare,KML,Check in history,チェックイン履歴">
+	</head>
+
+	<body>
+		<h1>Swarmap</h1>
+		<hr>
+		<ul>
+			<li><h3>KMLファイルを<a href="http://example.com/oauth.php">生成</a></h3></li>
+			<li><h3>エラーが出た場合、再試行してみてください。</h3></li>
+			<li><h3>標高データはGoogleMapAPIを利用して取得していますが、うまくいかないことがあります（現在は停止中です）。</h3></li>
+		</ul>
+		<br>
+		<h3>【設定】</h3>
+		<form method="post" action="http://example.com/app.php"><input type="checkbox" name="elevation[]" value="1">GoogleMapAPIで標高を取得</form>
+	</body>
+</html>
